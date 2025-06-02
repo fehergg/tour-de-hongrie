@@ -47,7 +47,7 @@ function listaelem(eredmeny){
   } 
   else
   {
-    return eredmeny.replace(",","<br>");
+    return eredmeny.replace(",","<br>")+"</strong>";
   }
 }
 
